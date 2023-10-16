@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+ 
+.navbar .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.navbar .left .logo {
+    display: flex;
+}
+
+.navbar .nav-elements a {
+    text-decoration: none;
+}
+
+.nav-elements {
+    display: flex;
+    gap: 30px;
+    list-style: none;   
+}
+
+.theme-btn {
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.navbar .logo img {
+    width: 80px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.hero .left .text h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero .left .text p {
+    color: hsl(257, 7%, 63%);
+}
+
+.hero .right {
+    width: 50%;
+}
+
+.hero .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
