@@ -84,3 +84,85 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.main {
+    width:   80%;
+    padding: 20px;
+    margin-left: 85px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(255, 11%, 22%);
+    background-image: url("images/bg-boost-desktop.svg")
+}
+
+.main input {
+    width: 35rem;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    
+}
+.statistics p {
+    text-align: center;
+}
+.card {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.card-text {
+    background-color: lightpink;
+    padding: 40px;
+
+}
+.ca img {
+    background: hsl(257, 27%, 26%);
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.cb {
+    margin-top: 80px;
+}
+.cb img {
+    background: hsl(257, 27%, 26%);
+    border-radius: 50px;
+    padding: 8px;
+}
+.cc {
+    margin-top: 180px;
+}
+.cc img {
+    background: hsl(257, 27%, 26%);
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.card .card-text img {
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: -15px;
+    margin-top: -66px;
+}
+  
+
+
+
