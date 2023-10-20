@@ -162,6 +162,47 @@ body {
     margin-left: -15px;
     margin-top: -66px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.theme-btn {
+    margin-top: 20px;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    color: #fff;
+    padding: 50px;
+    margin-top: 35px;
+    background-color:hsl(260, 8%, 14%)
+}
+.footer-elements .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer-elements .mid {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    line-height: 25px;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+}
+
   
 
 
